@@ -1,7 +1,7 @@
-from fastapi import FastAPI
+from fastapi import FastAPI # type: ignore
 from typing import List
 from datetime import datetime, timedelta
-from app.models.deployment import Deployment
+from backend.app.models.schema import Deployment
 
 app = FastAPI(title="Deployment Metrics Dashboard")
 

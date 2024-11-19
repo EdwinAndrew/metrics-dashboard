@@ -1,8 +1,8 @@
 # src/backend/db_test.py
 import asyncio
-from sqlalchemy.ext.asyncio import create_async_engine
-from sqlalchemy import text
-from dotenv import load_dotenv
+from sqlalchemy.ext.asyncio import create_async_engine # type: ignore
+from sqlalchemy import text # type: ignore
+from dotenv import load_dotenv # type: ignore
 import os
 
 async def test_connection():
